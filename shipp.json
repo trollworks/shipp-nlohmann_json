@@ -1,0 +1,9 @@
+{
+  "name": "nlohmann-json",
+  "version": "3.11.3",
+  "scripts": {
+    "build": "make build",
+    "install": "make install"
+  }
+}
+
