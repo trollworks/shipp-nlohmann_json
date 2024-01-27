@@ -16,8 +16,8 @@ cmake ../upstream \
   -G "$GEN" \
   -DCMAKE_BUILD_TYPE=Release \
   -DCMAKE_MAKE_PROGRAM=make \
-  -DCMAKE_CXX_PROGRAM=g++ \
-  -DCMAKE_C_PROGRAM=gcc \
+  -DCMAKE_CXX_COMPIELR=g++ \
+  -DCMAKE_C_COMPILER=gcc \
   -DJSON_BuildTests=OFF \
   -DJSON_Install=ON \
   -DCMAKE_INSTALL_PREFIX=$SHIPP_DIST_DIR
